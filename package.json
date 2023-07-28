@@ -1,0 +1,51 @@
+{
+	"name": "ts-dev-br",
+	"description": "Welcome to my World!",
+	"author": "Thiago Silva <thiago.silva@imd.ufrn.br> (https://ts.dev.br)",
+	"private": true,
+	"keywords": [
+		"portfolio"
+	],
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"test": "vitest",
+		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
+	"devDependencies": {
+		"@testing-library/jest-dom": "^5.17.0",
+		"@testing-library/react": "^14.0.0",
+		"@types/react": "^18.2.15",
+		"@types/react-dom": "^18.2.7",
+		"@typescript-eslint/eslint-plugin": "latest",
+		"@typescript-eslint/parser": "latest",
+		"@vitejs/plugin-react-swc": "^3.3.2",
+		"eslint": "^8.45.0",
+		"eslint-config-prettier": "^8.9.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-react": "latest",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.3",
+		"prettier": "^3.0.0",
+		"typescript": "^5.0.2",
+		"vite": "^4.4.5",
+		"vitest": "^0.33.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/silva-thiago/ts-dev-br.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/silva-thiago/ts-dev-br/issues"
+	},
+	"homepage": "https://github.com/silva-thiago/ts-dev-br#readme",
+	"packageManager": "yarn@3.6.1"
+}
