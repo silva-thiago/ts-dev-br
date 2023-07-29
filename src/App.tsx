@@ -4,7 +4,11 @@ function App() {
 	return (
 		<>
 			<h1>TS</h1>
-			<p>Wecome to my World!</p>
+			<ul>
+				<li>What needs to be done?</li>
+				<li>What needs to be protected?</li>
+				<li>What needs to be repeated?</li>
+			</ul>
 			<span>Wait for it…</span>
 		</>
 	)
