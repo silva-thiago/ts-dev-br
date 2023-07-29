@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+
 import './App.css'
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
 				<li>What needs to be repeated?</li>
 			</ul>
 			<span>Wait for it…</span>
+
+			<Analytics />
 		</>
 	)
 }

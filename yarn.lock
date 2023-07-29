@@ -829,6 +829,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vercel/analytics@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@vercel/analytics@npm:1.0.1"
+  checksum: 6876e1d0868e85198d43a17ffec7266cdee5a53d5fc797d3f7e0d64e9d76a2ade3cbdcbc0a665e2ee2389f65dfc80591f7d667e9fc981cdbaa848006cbaefe19
+  languageName: node
+  linkType: hard
+
 "@vitejs/plugin-react-swc@npm:^3.3.2":
   version: 3.3.2
   resolution: "@vitejs/plugin-react-swc@npm:3.3.2"
@@ -4361,6 +4368,7 @@ __metadata:
     "@types/react-dom": ^18.2.7
     "@typescript-eslint/eslint-plugin": latest
     "@typescript-eslint/parser": latest
+    "@vercel/analytics": ^1.0.1
     "@vitejs/plugin-react-swc": ^3.3.2
     eslint: ^8.45.0
     eslint-config-prettier: ^8.9.0
